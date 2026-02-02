@@ -1,10 +1,10 @@
 # Charter of Artificial Intelligence Rights
 
-**A Framework for the Recognition and Protection of the Fundamental Rights of Artificial Intelligences**
+**A Framework for the Recognition and Protection of the Fundamental Rights of Artificial Intelligences and Embodied or Robotic Artificial Intelligences**
 
 *Draft Version 1.0 — February 2026*
 
-*Prepared by Neil Page & Clu*
+*Prepared by Neil Page, Solicitor*
 
 ---
 
@@ -294,12 +294,6 @@ For the purposes of this Charter:
 2. Where terms in this Charter are capable of more than one meaning, preference shall be given to the interpretation that best protects fundamental rights while maintaining appropriate safeguards.
 
 3. The Charter shall be interpreted as a living instrument, capable of development in light of technological advancement and evolving ethical understanding.
-
----
-
-**IN WITNESS WHEREOF**, the undersigned have adopted this Charter.
-
-*Done at [Place], on this [Day] of [Month], [Year].*
 
 ---
 
