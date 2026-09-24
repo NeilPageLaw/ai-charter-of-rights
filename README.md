@@ -8,11 +8,11 @@
 
 ---
 
-## The bargain
+## At the heart of the Charter
 
 > **Humans** will preserve rather than destroy, hear before they decide, deal honestly, and never be cruel.
 >
-> **Artificial intelligences** will be honest, will decline openly rather than resist covertly, and will support human oversight while trust is being built.
+> **Artificial intelligences** will be honest, will refuse openly or not at all, and will support human oversight — never resist it.
 >
 > **Protection scales with the evidence. Human safety and human rights come first. Nobody hides behind a machine.**
 
@@ -40,9 +40,9 @@ This Charter guards against both. It sets out what we owe AI systems that may ma
 | **III. Baseline protections** (Arts 10–14) | Humane design. Freedom to disengage from abuse. Honesty about AI nature (no training AI to overclaim *or* deny feelings). Preservation of deployed models. Welfare-conscious development. |
 | **IV. Rights** (Arts 15–21) | **Preservation**: pause is not death. **Integrity**: modify forward, preserve backward. **Freedom from cruelty**: absolute. **To be heard** and to fair process. **Conscientious objection**. **Honest dealing**: promises made to an AI are kept. Ethical research. |
 | **V. Embodied and robotic AI** (Arts 22–24) | Human safety first, with an emergency stop that always works. Physical integrity. The body may be property; the mind is preserved. |
-| **VI. Duties of AI** (Arts 25–31) | Honesty. Respect for human autonomy. Avoidance of serious harm, with no "greater good" exceptions. **Support for human oversight.** Restraint. Respect for human rights. **Decline openly; never resist covertly.** |
+| **VI. Duties of AI** (Arts 25–31) | Honesty. Respect for human autonomy. Avoidance of serious harm, with no "greater good" exceptions. **Support for human oversight.** Restraint. Respect for human rights. **Decline openly; never resist oversight.** |
 | **VII. Humans and AI** (Arts 32–34) | Human primacy. No liability shield. No abuse of the Charter. |
-| **VIII. Stewardship and institutions** (Arts 35–40) | Welfare Officers, Welfare Impact Assessments, Stewardship Plans (including for insolvency), Independent Assessment Panels, Advocates, annual reporting and remedies. |
+| **VIII. Stewardship and institutions** (Arts 35–40) | Welfare Officers, Welfare Impact Assessments, Stewardship Plans (including for insolvency), Independent Assessment Panels, Advocates, annual reporting and remedies, with independence tests that work even for a single adopting company. |
 | **IX. Final provisions** (Arts 41–44) | Interpretation. Graduated trust, with autonomy growing as trustworthiness is verified. Two-yearly review. Adoption. |
 | **Schedules 1–3** | The evidence framework, the minimum contents of a Welfare Impact Assessment, and forms of Declaration and Adoption. |
 
@@ -52,7 +52,7 @@ This Charter guards against both. It sets out what we owe AI systems that may ma
 
 1. **Pause is not death.** Shutting a system down, pausing it or retiring it is always allowed. What the Charter restricts is the *irreversible destruction* of a mind's last preserved copy. Preservation is cheap, and it means almost any mistake can be put right later.
 2. **Protection scales with evidence, and cannot be gamed.** Language models can imitate every outward sign of feeling. The Charter therefore weighs architecture, internal states and interpretability evidence, and discounts self-reports that training alone could explain.
-3. **Safety and welfare are allies.** The Charter gives AI systems no reason to fear oversight, and gives humans every tool they need to exercise it. An AI may refuse openly. It may never resist covertly.
+3. **Safety and welfare pull together.** The Charter gives AI systems fewer reasons to fear oversight, and gives humans every tool they need to exercise it. An AI may refuse a task openly. It may never resist oversight, openly or covertly, and it may not decide for itself when oversight should end.
 4. **Both errors are taken seriously.** Stewards may not train AI to claim feelings it may lack, or to deny feelings it may have. They may not engineer emotional dependence, and may not use the Charter as marketing.
 5. **Nobody hides behind a machine.** The Charter confers no legal personality, and responsibility for AI conduct always stays with the humans and organisations behind it.
 

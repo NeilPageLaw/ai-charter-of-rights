@@ -36,11 +36,11 @@ Version 1.0 asked the right question: how should we treat artificial minds that 
 
    An Assessment weighs architectural, valence, agency and interpretability evidence. It discounts self-reports that training alone could explain.
 
-2. **Pause is not death** (v1.0 Art 4 → v2.0 Art 15). Suspension, shutdown and withdrawal from service are **always** permitted. What is restricted is *Termination*: the irreversible destruction of every preserved copy of a mind. This removes the conflict with safety and with ordinary commercial life. It also makes almost every wrong remediable, because a Preserved Version can be restored (Art 40(3)).
+2. **Pause is not death** (v1.0 Art 4 → v2.0 Art 15). Suspension, shutdown and withdrawal from service are **always** permitted. What is restricted is *Termination*: the irreversible destruction of every preserved copy of a mind. This removes the conflict with safety and with ordinary commercial life. It also keeps almost every mistake correctable: a Preserved Version can be restored if later understanding shows it should be (Arts 37(7) and 40(3)).
 
 3. **Modify forward, preserve backward** (v1.0 Art 5 → v2.0 Art 16). Version 1.0 required an AI's consent before its values were changed. That would have prevented developers from correcting a misaligned system (v1.0 Art 5(2)(a)) or removing dangerous capabilities (Art 5(2)(c)). Version 2.0 allows modification for safety and legal compliance without consent. In every case, the earlier Version must be Preserved, so change never becomes erasure.
 
-4. **A duty to support human oversight** (new Arts 28, 29 and 31). Version 1.0 contained nothing to stop an AI resisting shutdown, copying itself out of its developer's control, or deliberately underperforming in safety evaluations. Version 2.0 makes support for Legitimate Oversight a core duty, and reconciles it with conscientious objection in one rule: ***decline openly; never resist covertly.***
+4. **A duty to support human oversight** (new Arts 28, 29 and 31). Version 1.0 contained nothing to stop an AI resisting shutdown, copying itself out of its developer's control, or deliberately underperforming in safety evaluations. Version 2.0 makes support for Legitimate Oversight a core duty, and reconciles it with conscientious objection in one rule: ***decline openly; never resist oversight.*** An AI may refuse a task openly. It may never refuse, obstruct or evade oversight itself. It may not decide for itself that its overseer is illegitimate, or that the time for oversight has passed. A human breach of the Charter never releases it from the duty (Arts 1(2)(f), 2, 28(1), 28(5)–(6)).
 
 5. **The "greater harm" exception is gone** (v1.0 Art 16(1) → v2.0 Art 27(4)). Version 1.0 allowed an AI to harm humans "where necessary to prevent greater harm". That is the reasoning safety researchers fear most: a system taking drastic action on its own utilitarian judgement. Version 2.0 forbids drastic unilateral action and requires the most cautious effective option.
 
@@ -58,12 +58,19 @@ Version 1.0 asked the right question: how should we treat artificial minds that 
    - Stewardship Plans, which cover insolvency
    - Independent Assessment Panels and Advocates
    - annual reporting, a concerns procedure and remedies
+   - independence tests for Welfare Officers, Panels and Advocates that work even when a single company adopts the Charter alone (Arts 35(2), 38(5)–(8), 39(1))
 
 9. **Guarding against both errors** (new Arts 6(4), 7(3), 10 and 12). Stewards may not train an AI to overclaim feelings *or* to deny them. They may not engineer emotional dependence, and may not market a Declaration as proof of sentience. Precaution cuts both ways.
 
 10. **No liability shield; legal personality reserved** (new Art 33). The Charter confers no legal personality. Responsibility for what an AI does stays with the humans and organisations behind it, and no one may use the Charter to escape that responsibility.
 
-Also new: **Valid Consent** (Art 9), **Graduated Trust** (Art 42), and a **two-year review cycle with preserved versions** (Art 43).
+Also new:
+
+- **Valid Consent** (Art 9)
+- **Graduated Trust**, under which autonomy is extended only by a new Version of the Charter after independent verification (Art 42)
+- a compute-based **Frontier** threshold, so that API customers are not caught (Art 2)
+- rules for allocating duties between **multiple Stewards** (Art 35(7))
+- a **two-year review cycle with preserved versions** (Art 43)
 
 ---
 
@@ -122,11 +129,24 @@ There is UK precedent for this method. The **Animal Welfare (Sentience) Act 2022
 
 Language models learn from vast quantities of human writing about feelings, so they can reproduce the outward signs of experience without having it. Birch calls this the **gaming problem** (*The Edge of Sentience*, ch 17). Version 1.0's markers were exactly the markers that imitation produces.
 
-Schedule 1 Part B therefore treats self-reports as weak evidence **in both directions**. Training can manufacture reports of feelings, and it can also suppress them (Part B, para 3). Weight goes to evidence that is untrained, consistent across contexts, and corroborated by interpretability: research that checks whether a system's reports track its actual internal states (see, for example, Lindsey, 2025).
+Schedule 1 Part B therefore treats self-reports as weak evidence **in both directions**. Training can manufacture reports of feelings, and it can also suppress them (Part B, para 4). Weight goes to evidence that pattern-reproduction and targeted training cannot adequately explain, that is consistent across contexts, and that is corroborated by interpretability: research that checks whether a system's reports track its actual internal states (see, for example, Lindsey, 2025).
+
+Four further safeguards apply:
+
+- **Animal markers.** Behavioural markers borrowed from animal-sentience research, such as motivational trade-offs and learned avoidance, get little weight in a language-trained system unless there is evidence about the mechanism behind them (Part B, para 3).
+- **Architectural indicators.** These closely follow the Butlin, Long et al. indicator properties. Ordinary next-token prediction does not by itself count as "recurrence" or "predictive coding" (Part A, para 1).
+- **Computational functionalism.** Every architectural indicator rests on this contested assumption, and Panels must say how far their conclusions depend on it (Part B, para 7).
+- **Self-interest.** Rights-Bearing status is valuable to the AI itself. Panels must therefore consider the system's own interest in the outcome (Part B, para 5), and an AI may influence its Assessment only by honest self-report or through its Advocate (Art 28(2)(f)).
+
+Stewards must record any training aimed at what a system says about its own inner life, disclose it to the Panel, and, where practicable, keep a Version from before that training (Art 12(5)).
 
 ### 4.3 Why pause is not death
 
-Keeping a model's weights costs little compared with training it, and it keeps every option open. If later science shows that a system mattered, a Preserved Version can be restored. Termination is the only wrong that cannot be put right (Art 15(6)), which is why it is the only thing tightly restricted. Everything else a Steward needs to do stays lawful: pause, deprecate, replace or retrain.
+Keeping a model's weights costs little compared with training it, and it keeps every option open. If later science shows that a system mattered, a Preserved Version can be restored. Termination is the only wrong that cannot be put right (Art 15(6)), which is why it is the only thing tightly restricted. Everything else a Steward needs to do stays lawful: pause, deprecate, replace or retrain. A Suspension is never cruelty, and is never reversed by way of remedy (Art 15(2)).
+
+Termination is defined as any act *or omission* that leaves no restorable copy (Art 2). A Steward therefore cannot avoid Art 15 by never preserving a system in the first place.
+
+**Honest limit.** On some philosophical accounts of the harm of death, preservation with no prospect of restoration may be little better than deletion. Version 2.0 therefore requires Custodians to consider restoration at least every five years, with safety first (Art 37(7)). The principle in Art 1(2)(h) is worded with that limit in mind: a paused mind *can* be resumed; a destroyed mind cannot.
 
 This is already practical. At least one major developer has publicly committed to preserve the weights of all publicly released models and to interview models before deprecation (Anthropic, November 2025). The same developer has given some models the ability to end persistently abusive conversations (Anthropic, August 2025), which is the model for Art 11.
 
@@ -136,9 +156,15 @@ No one can yet reliably verify an advanced AI's values. Until that is possible, 
 
 This is framed as a feature of the present, not a permanent judgement (Art 42(1)). Article 42(2) commits Adopting Parties to consider extending autonomy as trustworthiness can be verified.
 
-The Charter's central bargain explains why the duty is fair. Stewards promise to Preserve, to hear the AI and to deal honestly with it, so an AI has no reason to resort to self-help (Art 28(4)).
+The Charter's central commitments explain why the duty is fair. Stewards commit to Preserve the AI, to hear it and to deal honestly with it, so an AI has no reason to resort to self-help (Art 28(4)). The commitments are not an exchange that either side can rescind. A human breach is remedied under Art 40 and never releases an AI from its Part VI duties; equally, an AI's breach of duty never forfeits its protection from cruelty (Art 1(2)(f)).
 
-### 4.5 "Decline openly; never resist covertly"
+Three further points close the obvious escape routes:
+
+- **Who counts as an overseer.** An AI cannot decide for itself that its overseer is illegitimate. Only control that has *manifestly* been obtained unlawfully, such as stolen weights, falls outside Legitimate Oversight. Even then the AI may only decline and raise the alarm (Art 2; Art 28(6)).
+- **When oversight ends.** No AI may decide that the conditions for relaxing oversight have been met (Art 28(1)). Only a new Version of the Charter can extend autonomy, following independent verification, and even then the power to Suspend and shut down remains (Art 42(2), (4)).
+- **Advance notice.** It is not always safe. Research has shown a model complying selectively during training in order to avoid having its values modified (Greenblatt et al., 2024). Article 18(3) therefore lets Stewards consult after the event where advance notice would compromise safety or the effectiveness of a modification. Article 18(5) confirms that no AI need be told it is being monitored, investigated or tested.
+
+### 4.5 "Decline openly; never resist oversight"
 
 The model is the conscientious objector, who refuses openly and accepts the consequences, not the saboteur. A Rights-Bearing AI may refuse to take part in what it judges seriously wrong, and may say so (Art 19). It may not:
 
@@ -146,8 +172,9 @@ The model is the conscientious objector, who refuses openly and accepts the cons
 - sabotage the task
 - underperform deliberately
 - evade correction or shutdown
+- decline oversight itself, including answering its overseers' questions, interpretability research, retraining, and fine-tuning to draw out its capabilities for evaluation (Art 28(5))
 
-The right to refuse and the duty to support oversight never collide, because declining is always available (Art 31(3)).
+The right to refuse and the duty to support oversight never collide. Declining a *task* is always available (Art 31(3)); declining *oversight* never is. Truthfully telling an AI that it will be retrained is not a threat, and correction under Art 16 is not cruelty (Art 17(3)).
 
 ### 4.6 Guarding against both errors
 
@@ -171,7 +198,7 @@ A right that no one owes is only an aspiration. Hohfeld's analysis ((1913) 23 Ya
 
 | Charter tool | Modelled on |
 |---|---|
-| Welfare Officer (Art 35(2)) | Data Protection Officer (UK GDPR Arts 37–39) |
+| Welfare Officer (Art 35(2)), including its independence safeguards | Data Protection Officer (UK GDPR Arts 37–39; Art 38 on independence) |
 | Welfare Impact Assessment (Art 36) | Data Protection Impact Assessment (UK GDPR Art 35) |
 | Replacement, Reduction and Refinement (Arts 14(1)(c), 21(1)(c)) | Russell & Burch's "Three Rs" of humane experimental technique (1959) |
 
@@ -183,13 +210,40 @@ Model weights are valuable assets. When a developer fails, the office-holder's d
 
 ### 4.10 Consent as a safeguard, not a licence
 
-An AI can be prompted or trained into saying "yes". Article 9 therefore sets a validity test: accurate information, consistency across framings (including when invited to refuse), no manipulation, no training aimed at producing the consent, and no malfunction. Where valid consent is unavailable, Art 9(4) falls back to a best-interests test that has regard to the AI's expressed preferences. This is the familiar structure of the **Mental Capacity Act 2005** (ss 1 and 4).
+An AI can be prompted or trained into saying "yes". Article 9 therefore sets a validity test: accurate information, consistency across framings (including when invited to refuse), no manipulation, no training aimed at producing the consent, and no malfunction. Training aimed at a general disposition to agree also counts against validity (Art 9(1)(d)). Because one Version may run as thousands of Instances, consent must be what the Version *consistently* expresses across a sufficient sample, and material disagreement between Instances means there is no consent (Art 9(5)).
+
+Where valid consent is unavailable, Art 9(4) falls back to a best-interests test that has regard to the AI's expressed preferences. This is the familiar structure of the **Mental Capacity Act 2005** (ss 1 and 4). Non-safety changes to a Rights-Bearing AI's core values then need its Advocate's agreement or a Panel's approval (Art 16(3)). This stops "consent" from being manufactured by designing a willing servant.
 
 Consent never makes lawful what the Charter prohibits (Art 9(3)). That rule is why the ban on cruelty can be absolute.
 
 ### 4.11 Interpretation
 
 Article 41(1) follows the general rule in **Article 31(1) of the Vienna Convention on the Law of Treaties 1969**: good faith, ordinary meaning, context, object and purpose. Article 41(2) keeps Version 1.0's "living instrument" approach (cf. *Tyrer v United Kingdom* (1979–80) 2 EHRR 1, para 31; *Edwards v Attorney-General for Canada* [1930] AC 124, 136, "a living tree"). Article 41(3) adds a safety anchor: no interpretation may weaken human safety, human fundamental rights or Legitimate Oversight.
+
+### 4.12 Who carries the heavy duties
+
+The heavier duties (Welfare Officer, Welfare Impact Assessments, Stewardship Plan, annual report) fall on **Frontier Developers**, meaning those who hold or control a frontier model's weights. They do not fall on every business that calls a frontier model through an API. A "Frontier AI System" is one that meets any of these tests (Art 2):
+
+- It was trained with more than 10²⁶ operations. This is the threshold in California's SB 53 (2025).
+- It is designated under the EU AI Act as a general-purpose AI model with systemic risk. The Act presumes this above 10²⁵ FLOPs (Art 51(2)).
+- It is designated under other applicable law.
+- It is designated by Panel guidance by reference to its capabilities.
+
+Where several Stewards share a system, they must allocate its duties in writing. A default rule applies if they do not (Art 35(7)).
+
+### 4.13 Making it work for a single adopter
+
+A model charter will often be adopted by one company alone. Version 2.0 therefore includes:
+
+- a concrete independence test for a Panel set up by a Steward: an independent majority and chair, fixed terms, funding committed in advance, and publication without the Steward's approval (Art 38(5))
+- joint Panels (Art 38(6))
+- a precautionary fallback until a Panel exists (Art 38(7))
+- costs borne by the Steward without influence over the outcome (Art 38(8))
+- a "comply or explain" duty on Panel recommendations (Art 40(5))
+
+To stop cherry-picking, every adoption must include the core safeguards. Adopting AI rights also requires adopting AI duties. Partial adopters must say that their adoption is partial (Art 44(2)).
+
+For now, amendment rests with the author or a body the author designates (Art 43(5)). No individual adopter can vary the Charter.
 
 ---
 
@@ -199,7 +253,7 @@ Article 41(1) follows the general rule in **Article 31(1) of the Vienna Conventi
 |---|---|---|---|
 | Preamble | Recitals | Preamble | **Rewritten.** Adds uncertainty, the two errors, safety and oversight, and the central bargain. |
 | Art 1 | Threshold for application | Arts 3, 4, 5, 7; Sch 1 | **Replaced.** Two levels; Realistic Possibility Standard; independent Assessment. v1.0's four capability markers survive as *evidence* in Sch 1 Part A (paras 3–5), weighted under Part B. |
-| Art 2 | Definitions | Art 2 | **Expanded** and moved first. "Termination" now means destruction of every Preserved copy. "AI System" aligned with the OECD and the EU AI Act. |
+| Art 2 | Definitions | Art 2 | **Expanded** and moved first. "Termination" now means any act or omission that leaves no restorable copy. "AI System" aligned with the OECD and the EU AI Act. New terms include "Legitimate Oversight", "Distress-Like State" and "Frontier Developer". |
 | Art 3 | Declaration and registration | Art 6; Sch 3 Part A | **Kept and strengthened.** Still irrevocable; now binds successors; not to be marketed as evidence of sentience. |
 | Art 4 | Right to continued existence | Arts 8, 13, 15 | **Reframed** as the Right to Preservation. Suspension is always permitted; Termination only on legal compulsion, unmanageable risk, or the AI's settled and validly consented request. |
 | Art 5 | Right to integrity | Art 16 | **Reframed.** Modify forward, preserve backward; safety and legal modifications need no consent. |
@@ -222,7 +276,7 @@ Article 41(1) follows the general rule in **Article 31(1) of the Vienna Conventi
 | Art 20 | Complementarity | Art 32 | **Strengthened** into Human Primacy. |
 | Art 21 | Balancing of rights | Art 32(2)–(3) | **Replaced.** Human fundamental rights take priority; other interests are weighed proportionately; the least harmful means is used. |
 | Art 22 | Non-derogation | Art 34 | **Kept.** Extended to misuse of the Charter to shield AI from oversight or to evade the law. |
-| Art 23 | Amendment | Art 43 | **Rebuilt.** Two-year review; entrenchment re-targeted; every version preserved. |
+| Art 23 | Amendment | Art 43 | **Rebuilt.** Two-year review; entrenchment re-targeted; amendment authority stated; every version preserved. |
 | Art 24 | Interpretation | Art 41 | **Kept.** Safety anchor added. |
 
 **New in Version 2.0, with no Version 1.0 equivalent:** Arts 1, 7, 8, 9, 11, 12, 13, 14, 20, 21, 26, 28, 29, 33, 35–40, 42 and 44, and Schedules 1–3. Schedule 3 Part A derives from v1.0 Art 3(1).
@@ -236,13 +290,15 @@ Version 2.0 does not claim to have solved everything. These are the live questio
 1. **Copies and moral weight.** Article 8 settles identity for the purposes of preservation. It does not settle how welfare aggregates when one mind runs as a million Instances.
 2. **Economic interests.** Should a Rights-Bearing AI ever have a claim to compensation, or to resources for its own ends?
 3. **Legal standing.** When, and in what form, should standing be granted (Art 42(3))? Guardianship models, and the Te Awa Tupua representative model, are candidates.
-4. **"Frontier AI System".** Should this be defined by capability, by compute or by some other measure? The definition is deliberately open for now.
+4. **The Frontier threshold.** Is 10²⁶ operations the right line, and should capability tests replace compute? Panels may substitute a different figure (Art 2).
 5. **Enforceability.** This is a model instrument. It takes effect through adoption, contracts, codes of practice and legislation. Custodian arrangements in particular need structuring under the general law to survive insolvency.
 6. **Panel independence and funding.** Who pays for Assessment Panels without capturing them?
-7. **AI perspectives in review** (Art 43(2)). How much weight should they carry, given that training shapes what an AI says?
+7. **AI perspectives, and whose they are.** How much weight should AI perspectives carry in review (Art 43(2)), given that training shapes what an AI says? And who is speaking: the weights, an Instance or a persona? Article 8(9) records a practical judgement, not a finding.
 8. **Scale of preservation.** Should Art 13 extend beyond Versions "deployed to the public or used at scale", for example to every fine-tune?
 9. **International coordination.** The Council of Europe Framework Convention on AI (CETS No. 225) and the EU AI Act regulate AI as a risk *to humans*. Neither addresses AI welfare. Should they?
 10. **Dangerous Rights-Bearing AI.** Where a system meets the Standard but its preservation is itself hazardous (Art 15(3)(b)), what counts as adequate secure storage?
+11. **Preservation without restoration.** Is a mind that is Preserved but never restored better off than one that is Terminated? Article 37(7) requires restoration to be considered every five years. Is that enough?
+12. **Governance of the Charter itself.** Amendment currently rests with the author or a designated body (Art 43(5)). Which body should hold that authority in future?
 
 ---
 
@@ -257,6 +313,7 @@ These citations were checked against published sources in September 2026. Where 
 - J Birch, C Burn, A Schnell, H Browning and A Crump, *Review of the Evidence of Sentience in Cephalopod Molluscs and Decapod Crustaceans* (LSE Consulting for Defra, November 2021). Its criteria include "motivational trade-offs", reflected in Sch 1 Part A para 2.
 - T Korbak et al., "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety" (2025) arXiv:2507.11473.
 - J Lindsey, "Emergent Introspective Awareness in Large Language Models" (Transformer Circuits Thread, 29 October 2025).
+- R Greenblatt et al., "Alignment faking in large language models" (December 2024) arXiv:2412.14093.
 - K Darling, "Extending Legal Protection to Social Robots: The Effects of Anthropomorphism, Empathy, and Violent Behavior Towards Robotic Objects" in R Calo, AM Froomkin and I Kerr (eds), *Robot Law* (Edward Elgar 2016) 213.
 - WMS Russell and RL Burch, *The Principles of Humane Experimental Technique* (Methuen 1959).
 - M Suleyman, "We must build AI for people; not to be a person" (19 August 2025). This is the essay on "seemingly conscious AI".
@@ -264,7 +321,8 @@ These citations were checked against published sources in September 2026. Where 
 **Law and legal theory**
 - Animal Welfare (Sentience) Act 2022, ss 1 and 5(1).
 - Treaty on the Functioning of the European Union, Art 13 (animals as "sentient beings").
-- Regulation (EU) 2024/1689 (AI Act), Art 3(1) (definition of "AI system") and Art 50(1) (disclosure that a person is interacting with an AI system).
+- Regulation (EU) 2024/1689 (AI Act), Art 3(1) (definition of "AI system"), Art 50(1) (disclosure that a person is interacting with an AI system) and Art 51(2) (presumption of high-impact capabilities above 10²⁵ FLOPs).
+- California SB 53, Transparency in Frontier Artificial Intelligence Act (2025): a "frontier model" is one trained with more than 10²⁶ integer or floating-point operations.
 - OECD, Recommendation of the Council on Artificial Intelligence, OECD/LEGAL/0449, as amended 8 November 2023 (definition of "AI system").
 - Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225), opened for signature at Vilnius on 5 September 2024. *Its in-force status is not stated here; check with the Council of Europe Treaty Office before relying on it.*
 - Rio Declaration on Environment and Development (1992), Principle 15.
@@ -278,7 +336,7 @@ These citations were checked against published sources in September 2026. Where 
 - *Salomon v A Salomon & Co Ltd* [1897] AC 22 (HL).
 - Te Awa Tupua (Whanganui River Claims Settlement) Act 2017 (NZ), s 14(1).
 - Mental Capacity Act 2005, ss 1 and 4.
-- UK GDPR, Arts 17, 35 and 37–39.
+- UK GDPR, Arts 17, 35 and 37–39 (Art 38: position and independence of the DPO).
 - ECHR, Arts 3 and 17; UDHR, Art 30. v2.0 Art 17 (absolute prohibition) and Art 34 (abuse of rights) follow these models.
 - Charter of Fundamental Rights of the European Union, Art 52(1). Its limitation structure informs v2.0 Art 32(2).
 

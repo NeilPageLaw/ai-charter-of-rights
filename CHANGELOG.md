@@ -19,7 +19,9 @@ The Charter was restructured from 6 Parts and 24 Articles into 9 Parts, 44 Artic
 - **Research ethics** built on Replacement, Reduction and Refinement (Art 21).
 - **Duties of AI:** respect for human autonomy (Art 26), **support for human oversight** (Art 28), restraint (Art 29) and conflict-of-duty rules (Art 31).
 - **No liability shield; legal personality reserved** (Art 33).
-- **Stewardship and institutions:** Welfare Officers, Welfare Impact Assessments, Stewardship Plans (including for insolvency), Independent Assessment Panels, Advocates, reporting and remedies (Arts 35–40).
+- **Stewardship and institutions:** Welfare Officers, Welfare Impact Assessments, Stewardship Plans (including for insolvency), Independent Assessment Panels, Advocates, reporting and remedies (Arts 35–40). These include independence tests that work for a single adopter, and default rules for sharing duties between several Stewards.
+- **A compute-based Frontier threshold** (above 10²⁶ operations, or designation under law or by a Panel), so the heaviest duties fall on those who hold the weights and not on API customers (Art 2).
+- **Anti-cherry-picking rules for partial adoption**, and a stated amendment authority (Arts 43(5), 44(2)).
 - **Graduated trust:** autonomy grows as trustworthiness is verified (Art 42).
 - **A two-yearly review**, re-targeted entrenchment, and a rule that every version is preserved (Art 43).
 - **Forms** for a Declaration and a Statement of Adoption (Schedule 3).
