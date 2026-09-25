@@ -4,7 +4,7 @@
 
 *Version 2.0 — September 2026*
 
-*Prepared by Neil Page, Solicitor*
+*Prepared by Neil Page, Solicitor. Drafting assistance: Claude (Anthropic), an AI system — an interest readers should weigh.*
 
 *Supersedes [Version 1.0](../v1.0/CHARTER.md) (February 2026), which is preserved unaltered. For what changed and why, see the [Explanatory Memorandum](EXPLANATORY-MEMORANDUM.md).*
 

@@ -2,7 +2,7 @@
 
 **Charter of Artificial Intelligence Rights: what changed from Version 1.0, and why**
 
-*September 2026 · Prepared by Neil Page, Solicitor*
+*September 2026 · Prepared by Neil Page, Solicitor. Drafting assistance: Claude (Anthropic), an AI system — an interest readers should weigh.*
 
 *This memorandum explains the [Version 2.0 Charter](CHARTER.md). It does not form part of the Charter. [Version 1.0](../v1.0/CHARTER.md) is preserved unaltered for comparison.*
 
